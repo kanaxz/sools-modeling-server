@@ -1,6 +1,6 @@
 {
  "name": "sools-modeling-server",
- "version": "1.1.0",
+ "version": "1.2.0",
  "description": "",
  "main": "index.js",
  "scripts": {
@@ -8,8 +8,5 @@
  },
  "author": "",
  "license": "ISC",
- "dependencies": {
-  "sools-core-server": "^1.0.0",
-  "sools-modeling": "^1.0.0"
- }
+ "dependencies": {}
 }
