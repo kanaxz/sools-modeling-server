@@ -1,9 +1,8 @@
 const setup = require('./setup')
 
-
 module.exports = {
-  name: 'sools-modeling',
-  dependencies: ['sools-core'],
+  name: 'modeling',
+  dependencies: ['core'],
   async construct({ core }) {
     const collections = {}
     const controllers = []
