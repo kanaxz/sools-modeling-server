@@ -2,7 +2,9 @@ const setup = require('./setup')
 
 module.exports = {
   name: 'modeling',
-  dependencies: ['core'],
+  dependencies: [
+    require('sools-core-server')
+  ],
   async construct({ core }) {
     const collections = {}
     const controllers = []
@@ -16,7 +18,6 @@ module.exports = {
 
     core.on('purge', purge)
     core.on('ready', () => setup({ collections, map, controllers }))
-
 
     const controller = (type, controller) => {
       controllers.push({
